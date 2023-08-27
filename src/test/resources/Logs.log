@@ -1,0 +1,40 @@
+[INFO ] 2023-06-13 14:14:52.184 [main] TrelloCreate - Generated Board id is: 64884fabb238bc2709e67c69
+[INFO ] 2023-06-13 14:14:52.695 [main] TrelloCreate - Generated List id is: 64884fac0d865bf2d516eb47
+[INFO ] 2023-06-13 14:14:53.300 [main] TrelloCreate - Generated Card id is: 64884faddda04823b0552faf
+[INFO ] 2023-06-13 14:14:53.775 [main] TrelloCreate - Generated Checklist id is: 64884fadb6b6b80565b5a588
+[INFO ] 2023-06-13 14:14:54.253 [main] TrelloCreate - Deleting Checklist with id 64884fadb6b6b80565b5a588
+[INFO ] 2023-06-13 14:14:54.951 [main] TrelloCreate - Deleting Card with id 64884faddda04823b0552faf
+[INFO ] 2023-06-13 14:14:55.264 [main] TrelloCreate - Deleting List with id 64884fac0d865bf2d516eb47
+[INFO ] 2023-06-13 14:14:56.591 [main] TrelloCreate - Deleting Board with id 64884fabb238bc2709e67c69
+[INFO ] 2023-06-13 14:36:29.195 [main] TrelloCreate - Generated Board id is: 648854bc946b36af035e6270
+[INFO ] 2023-06-13 14:36:29.794 [main] TrelloCreate - Generated List id is: 648854bd05b33e7c619e6712
+[INFO ] 2023-06-13 14:36:30.485 [main] TrelloCreate - Generated Card id is: 648854bec34a7a5f363bee44
+[INFO ] 2023-06-13 14:36:31.010 [main] TrelloCreate - Generated Checklist id is: 648854bea2ea225c2002eb5d
+[INFO ] 2023-06-13 14:36:31.748 [main] TrelloCreate - Deleted Checklist with id 648854bea2ea225c2002eb5d
+[INFO ] 2023-06-13 14:36:32.471 [main] TrelloCreate - Deleted Card with id 648854bec34a7a5f363bee44
+[INFO ] 2023-06-13 14:36:32.783 [main] TrelloCreate - Deleted List with id 648854bd05b33e7c619e6712
+[INFO ] 2023-06-13 14:36:34.564 [main] TrelloCreate - Deleted Board with id 648854bc946b36af035e6270
+[INFO ] 2023-07-07 17:09:29.769 [main] TrelloCreate - Generated Board id is < 64a81c98d69004bee0c94317 >
+[INFO ] 2023-07-07 17:09:30.270 [main] TrelloCreate - Generated Board id is < 64a81c9a90542eabcf115170 >
+[INFO ] 2023-07-07 17:09:30.869 [main] TrelloCreate - Generated Board id is < 64a81c9a22bbad8a5b2be55a >
+[INFO ] 2023-07-07 17:09:31.378 [main] TrelloCreate - Generated Board id is < 64a81c9ba13cd0f601d5c452 >
+[INFO ] 2023-07-07 17:09:31.819 [main] TrelloDelete - Deleted Checklist with id < 64a81c9ba13cd0f601d5c452 >
+[INFO ] 2023-07-07 17:09:32.465 [main] TrelloDelete - Deleted Checklist with id < 64a81c9a22bbad8a5b2be55a >
+[INFO ] 2023-07-07 17:09:32.774 [main] TrelloDelete - Deleted Checklist with id < 64a81c9a90542eabcf115170 >
+[INFO ] 2023-07-07 17:09:33.954 [main] TrelloDelete - Deleted Checklist with id < 64a81c98d69004bee0c94317 >
+[INFO ] 2023-07-07 17:10:33.498 [main] TrelloCreate - Generated Board id is < 64a81cd82be0a6a8a1819657 >
+[INFO ] 2023-07-07 17:10:33.933 [main] TrelloCreate - Generated List id is < 64a81cd9c036df63adb38ca4 >
+[INFO ] 2023-07-07 17:10:34.494 [main] TrelloCreate - Generated Card id is < 64a81cdaf7dd3ab0bc5bff5d >
+[INFO ] 2023-07-07 17:10:34.911 [main] TrelloCreate - Generated Checklist id is < 64a81cda9ba950f3a4454822 >
+[INFO ] 2023-07-07 17:10:35.728 [main] TrelloDelete - Deleted Checklist with id < 64a81cda9ba950f3a4454822 >
+[INFO ] 2023-07-07 17:10:36.545 [main] TrelloDelete - Deleted Card with id < 64a81cdaf7dd3ab0bc5bff5d >
+[INFO ] 2023-07-07 17:10:36.862 [main] TrelloDelete - Deleted List with id < 64a81cd9c036df63adb38ca4 >
+[INFO ] 2023-07-07 17:10:38.489 [main] TrelloDelete - Deleted Board with id < 64a81cd82be0a6a8a1819657 >
+[INFO ] 2023-07-07 17:27:16.373 [main] TrelloCreate - Generated Board id is < 64a820c38749ee129f74f92a >
+[INFO ] 2023-07-07 17:27:16.890 [main] TrelloCreate - Generated List id is < 64a820c490a4fd7c089376a3 >
+[INFO ] 2023-07-07 17:27:17.471 [main] TrelloCreate - Generated Card id is < 64a820c5610de457f23b6842 >
+[INFO ] 2023-07-07 17:27:17.916 [main] TrelloCreate - Generated Checklist id is < 64a820c584349112d6d4880b >
+[INFO ] 2023-07-07 17:27:18.499 [main] TrelloDelete - Deleted Checklist with id < 64a820c584349112d6d4880b >
+[INFO ] 2023-07-07 17:27:19.441 [main] TrelloDelete - Deleted Card with id < 64a820c5610de457f23b6842 >
+[INFO ] 2023-07-07 17:27:19.750 [main] TrelloDelete - Deleted List with id < 64a820c490a4fd7c089376a3 >
+[INFO ] 2023-07-07 17:27:21.509 [main] TrelloDelete - Deleted Board with id < 64a820c38749ee129f74f92a >
