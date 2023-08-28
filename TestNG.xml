@@ -3,8 +3,8 @@
 <suite name="RestAssured Suite">
     <test name="Create Tests">
         <classes>
-            <class name="Trello.TrelloCreate">
-            </class>
+<!--            <class name="Trello.TrelloCreate">-->
+<!--            </class>-->
             <class name="Trello.TrelloDelete">
             </class>
         </classes>

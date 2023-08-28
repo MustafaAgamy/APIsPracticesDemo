@@ -51,7 +51,8 @@ public class TrelloCreate {
                     .jsonPath().getString("id");
 
         log.info("Generated Board id is < " + idBoard + " >");
-        contextBoard.setAttribute("boardId", idBoard);
+//        contextBoard.setAttribute("boardId", idBoard);
+        jsonReader.writeJson("idBoard",idBoard,"TestData");
     }
     @Test(dependsOnMethods = "createBoard")
     public void createList(ITestContext contextBoard,ITestContext contextList){
@@ -71,7 +72,9 @@ public class TrelloCreate {
                     .jsonPath().getString("id");
 
         log.info("Generated List id is < " + idList + " >");
-        contextList.setAttribute("listId", idList);
+//        contextList.setAttribute("listId", idList);
+        jsonReader.writeJson("listId",idList,"TestData");
+
     }
     @Test(dependsOnMethods = "createList")
     public void createCard(ITestContext contextList,ITestContext contextCard){
@@ -90,7 +93,9 @@ public class TrelloCreate {
                     .jsonPath().getString("id");
 
         log.info("Generated Card id is < " + idCard + " >");
-        contextCard.setAttribute("cardId", idCard);
+//        contextCard.setAttribute("cardId", idCard);
+        jsonReader.writeJson("cardId",idCard,"TestData");
+
     }
     @Test(dependsOnMethods = "createCard")
     public void createChecklist(ITestContext contextCard,ITestContext contextChecklist){
@@ -109,6 +114,7 @@ public class TrelloCreate {
                     .jsonPath().getString("id");
 
         log.info("Generated Checklist id is < " + idChecklist + " >");
-        contextChecklist.setAttribute("ChecklistId", idChecklist);
+//        contextChecklist.setAttribute("ChecklistId", idChecklist);
+        jsonReader.writeJson("ChecklistId",idChecklist,"TestData");
     }
 }

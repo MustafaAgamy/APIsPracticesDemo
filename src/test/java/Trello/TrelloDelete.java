@@ -20,14 +20,16 @@ public class TrelloDelete {
     Configurations configurations = ConfigFactory.create(Configurations.class);
 
     JsonReader jsonReader;
-    private final String JSON_FILE = configurations.jsonFileName();
+    JsonReader jsonReaderTest;
+    private final String CONFIGURATION_JSON_FILE = configurations.jsonFileName();
     private static Logger log;
 
 
     @BeforeMethod
     public void SetUp(){
         RestAssured.baseURI = configurations.baseUrl();
-        jsonReader = new JsonReader(JSON_FILE);
+        jsonReader = new JsonReader(CONFIGURATION_JSON_FILE);
+        jsonReaderTest = new JsonReader("TestData.json");
         log = LogManager.getLogger(TrelloDelete.class.getSimpleName());
     }
 
@@ -35,7 +37,8 @@ public class TrelloDelete {
     public void deleteChecklist(ITestContext contextChecklist){
 
 
-        String idChecklist = (String) contextChecklist.getAttribute("ChecklistId");
+//        String idChecklist = (String) contextChecklist.getAttribute("ChecklistId");
+        String idChecklist = jsonReaderTest.readJson("ChecklistId");
 
         given().
                 contentType(ContentType.JSON)
@@ -49,7 +52,8 @@ public class TrelloDelete {
     }
     @Test(dependsOnMethods = "deleteChecklist")
     public void deleteCard(ITestContext contextCard){
-        String idCard = (String) contextCard.getAttribute("cardId");
+//        String idCard = (String) contextCard.getAttribute("cardId");
+        String idCard = jsonReaderTest.readJson("cardId");
 
         given().
                 contentType(ContentType.JSON)
@@ -65,7 +69,8 @@ public class TrelloDelete {
     }
     @Test(dependsOnMethods = "deleteCard")
     public void deleteList(ITestContext contextList){
-        String idList = (String) contextList.getAttribute("listId");
+//        String idList = (String) contextList.getAttribute("listId");
+        String idList = jsonReaderTest.readJson("listId");
 
         given().
                 contentType(ContentType.JSON)
@@ -81,7 +86,8 @@ public class TrelloDelete {
     }
     @Test(dependsOnMethods = "deleteList")
     public void deleteBoard(ITestContext contextBoard){
-        String idBoard = (String) contextBoard.getAttribute("boardId");
+//        String idBoard = (String) contextBoard.getAttribute("boardId");
+        String idBoard = jsonReaderTest.readJson("boardId");
 
         given().
                 contentType(ContentType.JSON)
